@@ -148,7 +148,7 @@ def dos():
 	file_txt.writelines("\n")
 
 
-	No_of_IPs = 5
+	No_of_IPs = 200
 	R_No_of_IPs = No_of_IPs +10
 	pkt = s.recvfrom(2048)
 	ipheader = pkt[0][14:34]
